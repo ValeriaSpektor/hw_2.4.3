@@ -4,16 +4,20 @@
   "description": "Created jest projest for test",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "nyc jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ValeriaSpektor/hw_2.4.3.git"
   },
-  "keywords": ["Node.js", "Jest"],
+  "keywords": [
+    "Node.js",
+    "Jest"
+  ],
   "author": "Valeria Spektor",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^27.5.1"
+    "jest": "^27.5.1",
+    "nyc": "^15.1.0"
   }
 }
